@@ -25,19 +25,19 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#">Plants Types</a>
+          <a class="nav-link" href="#">Dual Plants Types</a>
           <a class="nav-link" href="#">Tables</a>
           <a class="nav-link disabled" aria-disabled="true">Form</a>
         </div>
       </div>
     </nav>
 
-    <!-- section 1 just a pargraph wanted to do a text center on header and paragraph to have mg-5 fs-3 -->
+    <!-- section 1 just a pargraph wanted to do a text center on header and paragraph to have mg-5 fs-3, used css to syle the image-->
 
     <main>
       <div id="main-container" class="container pb-5 pt-3 custom-background">
         <h1 class="text-center mb-5">Indoor and Outdoor Plant Dual</h1>
-        <div class="container mg-5 fs-3">
+        <div class="container mg-5 fs-4">
           <div class="centerPic">
             <img
               src="orchid.jpg"
@@ -48,7 +48,8 @@
           <br />
           <br />
 
-          <p>
+          <div>
+          <div class="paragraphsize"></div>
             As we look to re-establish our connection to nature and bring its
             soul-nourishing, relaxing impact into our homes, apartments, and
             houses, decorating with plants has grown increasingly trendy in
@@ -66,9 +67,23 @@
           </p>
           <br />
         </div>
-        <br />
 
         <!-- section 2 types of outdoor and indoor wanted to do a bootstrap grid and add also image-->
+
+        <div>
+          <h2 class="text-center mb-5 fs-4">
+            Types of Dual Plants :Indoor and Outdoor
+          </h2>
+          <div class="paragraphsize"></div>
+          <p>
+            Are you concerned that your yard or house receives too much direct
+            sunlight or too much shade?<br />
+            <br />
+            You can always rely on a plant, indoors or out, to provide vitality
+            and vibrancy to your room, no matter how it looks.<br />
+            <br />
+          </p>
+        </div>
 
         <div class="centerPic">
           <img
@@ -78,10 +93,10 @@
           />
         </div>
 
-        <div class="row mt-3"><h3>Some Types of Indoor Plants</h3></div>
+        <div class="row mt-3 fs-4"><h3>Indoor Plants</h3></div>
         <br />
 
-        <div class="row">
+        <div class="row fs-4">
           <div class="col-lg-2">Aloe</div>
           <div class="col-lg-2">Orchid</div>
           <div class="col-lg-2">Cactus</div>
@@ -89,10 +104,10 @@
           <div class="col-lg-2">Snake plant</div>
         </div>
 
-        <div class="row mt-3"><h3>Some Types of outdoor Plants</h3></div>
+        <div class="row mt-3 fs-4"><h3>outdoor Plants</h3></div>
         <br />
 
-        <div class="row">
+        <div class="row fs-4">
           <div class="col-md-4">Camellias</div>
           <div class="col-md-4">Diascia</div>
           <div class="col-md-4">Coneflower</div>
@@ -102,12 +117,12 @@
           <br />
         </div>
 
-        <div class="row mt-3">
-          <h3>Some Types of Dual Indoor and Outdoor Plants</h3>
+        <div class="row mt-3 fs-4">
+          <h3>Dual Plants</h3>
         </div>
         <br />
 
-        <div class="row">
+        <div class="row fs-4">
           <div class="col-md-4">Vegetable plants (tomatoes,carrots)</div>
           <div class="col-md-4">Boxwood</div>
           <div class="col-md-4">Calla lily</div>
@@ -119,22 +134,15 @@
         <br />
 
         <!-- section 3 table-->
-
+        <div class="paragraphsize"></div>
         <p>
-          Are you concerned that your yard or house receives too much direct
-          sunlight or too much shade?<br />
-          <br />
-          You can always rely on a plant, indoors or out, to provide vitality
-          and vibrancy to your room, no matter how it looks.<br />
-          <br />
           The best plants, along with a description, are included in the table
           below. Feel free to use them in your house or garden.
         </p>
         <br />
-        <br />
 
         <section>
-          <table class="table table-bordered">
+          <table class="table table-bordered fs-4">
             <tr>
               <th>ID</th>
               <th>Plants Names</th>
@@ -179,14 +187,15 @@
         <!-- section 4 this is for a form-->
         <section>
           <form>
+            <div class="paragraphsize"></div>
             <p>
-              To enhance Your Outdoor Intelligence, please sign in on the below
+              To enhance Your indoor and Outdoor Intelligence, please sign in on the below
               to receive other articles on plant.
             </p>
             <br />
 
             <form>
-              <div class="form-group">
+              <div class="form-group fs-4">
                 <label for="exampleInputEmail1">Email address</label>
                 <input
                   type="email"
@@ -199,15 +208,7 @@
                   >We'll never share your email with anyone else.</small
                 >
               </div>
-              <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input
-                  type="password"
-                  placeholder="Password"
-                  class="form-control"
-                  id="exampleInputPassword1"
-                />
-              </div>
+
               <button type="submit" class="btn btn-primary mt-2">Submit</button>
             </form>
           </form>

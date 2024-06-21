@@ -13,3 +13,10 @@
   display: flex;
   justify-content: center;
 }
+.fontsizepar {
+  margin-bottom: 1rem;
+}
+.paragraphsize {
+  padding-bottom: 1rem;
+  margin: 1rem;
+}
