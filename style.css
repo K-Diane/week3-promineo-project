@@ -1,0 +1,15 @@
+.pictures {
+  border: 1px solid tomato;
+  border-radius: 50%;
+  padding: 5px;
+  width: 300px;
+}
+
+.custom-background {
+  background-color: white;
+}
+
+.centerPic {
+  display: flex;
+  justify-content: center;
+}
